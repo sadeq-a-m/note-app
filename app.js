@@ -13,7 +13,7 @@ bgcolor.forEach(item =>{
 btnSave.addEventListener('click',()=>{
 	let txt=input.value
 	if(txt==""){
-		alert('لطفا در داخل باکس متنی قرار دهید');
+		alert('please enter text');
 		return false;
 	}else{
 		let color=input.style.backgroundColor
